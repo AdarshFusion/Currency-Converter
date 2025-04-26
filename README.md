@@ -50,3 +50,5 @@ Follow these simple steps to run the project:
 
 Would you also like me to quickly give you a **short one-line description** you can put in the **repo bio** (top of the GitHub repo)? 🚀  
 It makes your project look even more complete! 🎯
+
+**Made with ❤️ by <span style="color: blue;">Adarsh</span>**
