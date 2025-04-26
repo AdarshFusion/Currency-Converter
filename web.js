@@ -73,33 +73,3 @@ btn.addEventListener("click", async (evt) => {
 })
 
 
-
-// let url = "https://latest.currency-api.pages.dev/v1/currencies/usd.json"
-
-// const rate = async ()=>{
-//     let repo = await fetch(url);
-//     console.log(repo);
-//     let data = await repo.json();
-//     console.log(data.usd.inr);
-// }
-// rate();
-
-
-
-
-
-// let factspara = document.querySelector("#facts")
-
-// let btn = document.querySelector("#btn")
-
-// const getfacts = async ()=>{
-//     console.log("Getting Data...");
-//     let response  = await fetch(URL);
-//     console.log(response);  //JSON Format
-//     let data = await response.json();
-//     // console.log(data[0].text);
-//     factspara.innerText = data.fact;
-// };
-// btn.addEventListener("click",getfacts);
-
-
