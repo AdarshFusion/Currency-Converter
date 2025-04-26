@@ -55,7 +55,9 @@ btn.addEventListener("click", async (evt) => {
     let data = await repo.json();
     let from = fromCurr.value.toLowerCase();
     let to = toCurr.value.toLowerCase();
-    let rate = data.usd[to];
+    let rate = data[from][to];
+    console.log(rate);
+    
     
     // console.log(rate);
 
@@ -63,7 +65,7 @@ btn.addEventListener("click", async (evt) => {
     
     // console.log(finalAmount);
 
-    msg.innerText = finalAmount;
+    msg.innerText = `${amtVal} ${fromCurr.value} = ${finalAmount} ${toCurr.value}`;
 
     
 
